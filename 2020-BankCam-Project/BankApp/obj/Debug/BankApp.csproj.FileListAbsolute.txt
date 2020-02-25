@@ -1,0 +1,31 @@
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\BankApp.exe.config
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\BankApp.exe
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\BankApp.pdb
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\obj\Debug\BankApp.Properties.Resources.resources
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\obj\Debug\BankApp.csproj.GenerateResource.cache
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\obj\Debug\BankApp.csproj.CoreCompileInputs.cache
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\obj\Debug\BankApp.csproj.CopyComplete
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\obj\Debug\BankApp.exe
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\obj\Debug\BankApp.pdb
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\obj\Debug\BankApp.csprojAssemblyReference.cache
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\obj\Debug\BankApp.Form1.resources
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\Microsoft.Kinect.Toolkit.BackgroundRemoval.dll
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\Microsoft.Kinect.Toolkit.Fusion.dll
+C:\Users\Davy\Documents\PP Project\BankApp\BankApp\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\bin\Debug\BankApp.exe.config
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\bin\Debug\BankApp.exe
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\bin\Debug\BankApp.pdb
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\bin\Debug\Microsoft.Kinect.dll
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\bin\Debug\Microsoft.Kinect.xml
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.csprojAssemblyReference.cache
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.Form1.resources
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.Properties.Resources.resources
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.csproj.GenerateResource.cache
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.csproj.CoreCompileInputs.cache
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.csproj.CopyComplete
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.exe
+C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.pdb
