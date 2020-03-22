@@ -118,27 +118,31 @@ namespace BankApp
 
             foreach (Skeleton S in Skeletons)
             {
-                List<JointInfo> jointInfos = new List<JointInfo>();
+                //List<JointInfo> jointInfos = new List<JointInfo>();
                 if (S.TrackingState == SkeletonTrackingState.Tracked)
                 {
                     foreach(JointType j in Enum.GetValues(typeof(JointType)))
                     {
-                        jointInfos.Add(new JointInfo(S.Joints[j]));
+                        JointInfo.Update(S.Joints[j]);
+                        //jointInfos.Add(new JointInfo(S.Joints[j]));
                     }
                     for(int i = 0; i < 20; i++)
                     {
-                        if(jointInfos[i] != null)
+                        if(JointInfo.allJoints[i] != null)
                         {
-                            jointLabels[i].Text = jointInfos[i].ToString();
+                            jointLabels[i].Text = JointInfo.allJoints[i].ToString();
                         }
                         else
                         {
                             jointLabels[i].Text = " ";
                         }
                     }
-                   foreach(JointInfo j in jointInfos)
+                   foreach(JointInfo j in JointInfo.allJoints)
                     {
-                        MarkAtxy(j.position, Brushes.Blue, g);
+                        if (j != null)
+                        {
+                            MarkAtxy(j.position, Brushes.Blue, g);
+                        }
                     }
                     //body
                     DrawBone(JointType.Head, JointType.ShoulderCenter, S, g);
