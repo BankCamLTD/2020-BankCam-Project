@@ -29,3 +29,15 @@ C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\De
 C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.csproj.CopyComplete
 C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.exe
 C:\Users\davia\Documents\pp Project\Bank Cam\2020-BankCam-Project\BankApp\obj\Debug\BankApp.pdb
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\obj\Debug\BankApp.csprojAssemblyReference.cache
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\obj\Debug\BankApp.Form1.resources
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\obj\Debug\BankApp.Properties.Resources.resources
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\obj\Debug\BankApp.csproj.GenerateResource.cache
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\obj\Debug\BankApp.exe
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\obj\Debug\BankApp.pdb
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\bin\Debug\BankApp.exe.config
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\bin\Debug\BankApp.exe
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\bin\Debug\BankApp.pdb
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\bin\Debug\Microsoft.Kinect.dll
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\bin\Debug\Microsoft.Kinect.xml
+C:\Users\ciara\Source\Repos\2020-BankCam-Project\2020-BankCam-Project\BankApp\obj\Debug\BankApp.csproj.CopyComplete

@@ -28,6 +28,8 @@ namespace BankApp
         PictureBox pictureBox1;
         PictureBox pictureBox3;
         List<Label> jointLabels;
+        bool alarm = false;
+
 
         public Form1()
         {
@@ -136,14 +138,35 @@ namespace BankApp
                         {
                             jointLabels[i].Text = " ";
                         }
-                    }
+                    }  
                    foreach(JointInfo j in JointInfo.allJoints)
-                    {
+                   {
                         if (j != null)
                         {
                             MarkAtxy(j.position, Brushes.Blue, g);
+                           
+                        }  
+
+                   }
+                   //Testing required coords
+                 /* Debug.Print(JointInfo.HandLeft.position.y +
+                      " : " + JointInfo.HandRight.position.y + 
+                        " : " + JointInfo.Head.position.y);
+                        */
+                    //Check for the relevant pose
+                   if((JointInfo.HandRight.position.y) > JointInfo.Head.position.y && (JointInfo.HandLeft.position.y)> JointInfo.Head.position.y)
+                   {
+                        bool alarm = true;
+                        Debug.Print("Alarm");
+
+                        if(alarm == true)
+                        {
+                            //Play Alarm on detecting hands above head
+                            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\ciara\Source\Repos\2020-BankCam-Project\sound99.wav");
+                            player.PlayLooping();
                         }
-                    }
+                   }
+                
                     //body
                     DrawBone(JointType.Head, JointType.ShoulderCenter, S, g);
                     DrawBone(JointType.ShoulderCenter, JointType.Spine, S, g);
@@ -174,10 +197,14 @@ namespace BankApp
 
 
             }
+            
+           
             pictureBox1.Image = bmap;
             SFrame.Dispose();
             VFrame.Dispose();
         }
+
+    
 
         void DrawBone(JointType j1, JointType j2, Skeleton S, Graphics g)
         {
@@ -236,6 +263,11 @@ namespace BankApp
                        Image.PixelDataLength);
             bmap.UnlockBits(bmapdata);
             return bmap;
+        }
+
+        public void Stop()
+        {
+        
         }
 
         private void Form1_Load(object sender, EventArgs e)
