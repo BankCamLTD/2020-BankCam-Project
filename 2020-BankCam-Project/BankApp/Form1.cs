@@ -26,9 +26,12 @@ namespace BankApp
         static KinectSensor sensor = KinectSensor.KinectSensors[0];
 
         PictureBox pictureBox1;
+        PictureBox pictureBox2;
         PictureBox pictureBox3;
         List<Label> jointLabels;
         bool alarm = false;
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.sound99);
+        float timer = 0;
 
 
         public Form1()
@@ -156,16 +159,38 @@ namespace BankApp
                     //Check for the relevant pose
                    if((JointInfo.HandRight.position.y) > JointInfo.Head.position.y && (JointInfo.HandLeft.position.y)> JointInfo.Head.position.y)
                    {
-                        bool alarm = true;
-                        Debug.Print("Alarm");
-
-                        if(alarm == true)
+                        if (timer > 1)
                         {
-                            //Play Alarm on detecting hands above head
-                            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\ciara\Source\Repos\2020-BankCam-Project\sound99.wav");
-                            player.PlayLooping();
+                            if (alarm == false)
+                            {
+                                //Play Alarm on detecting hands above head
+
+                                player.PlayLooping();
+                            }
+                            alarm = true;
+                            Debug.Print("Alarm");
+                            pictureBox2.BackColor = Color.Red;
+                        }
+                        else
+                        {
+                            timer += 0.01f;
+                            pictureBox2.BackColor = Color.Orange;
                         }
                    }
+                   else
+                    {
+                        if (timer <= 0)
+                        {
+                            player.Stop();
+                            timer = 0;
+                            alarm = false;
+                            pictureBox2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            timer -= 0.005f;
+                        }
+                    }
                 
                     //body
                     DrawBone(JointType.Head, JointType.ShoulderCenter, S, g);
@@ -275,7 +300,9 @@ namespace BankApp
 
         }
 
-       
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
